@@ -31,9 +31,9 @@ class chart
 
     public function statistical_revenue_by_date($dateFrom, $dateTo)
     {
-        $addSql = "";
+        $addSql = " 1 = 1 ";
         if ($dateFrom) {
-            $addSql .= " CONCAT(year_order, '-', month_order, '-', date_order) >= '$dateFrom' ";
+            $addSql = " CONCAT(year_order, '-', month_order, '-', date_order) >= '$dateFrom' ";
         }
 
         if ($dateTo) {
