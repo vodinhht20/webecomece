@@ -1,0 +1,51 @@
+.main {
+    margin-top: 70px;
+    padding: 0px 20px;
+    background-color: transparent !important;
+}
+
+.main h5 {
+    color: #f96332;
+    font-weight: 700;
+}
+
+.main .list_chart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-row-gap: 20px;
+}
+
+.main .list_chart .item_chart {
+    width: 49%;
+    box-shadow: 0px 0px 5px 0px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.main .list_chart .item_chart b {
+    color: #f96332;
+}
+
+.main .list_chart .item_chart .select {
+    margin: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main .list_chart .item_chart .select p {
+    padding: 0;
+    margin: 0;
+}
+
+.main .list_chart .item_chart .select select {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 5px;
+    width: 150px;
+    border: 1px solid gainsboro;
+}
+
+.main .list_chart .item_chart rect {}
